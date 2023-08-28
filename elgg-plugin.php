@@ -1,7 +1,6 @@
 <?php
 
-use Elgg\Router\Middleware\Gatekeeper;
-use Elgg\Router\Middleware\LoggedOutGatekeeper;
+ 
 
 
 require_once __DIR__.\DIRECTORY_SEPARATOR.'autoloader.php';
