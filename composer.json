@@ -1,0 +1,32 @@
+{
+	"name": "frdlweb/webfan_webfat_elgg_bridge",
+	"type": "elgg-plugin",
+	"description": "Webfan Webfat for elgg Bridge with Hybrid-/Multi- OAuth + CDN with CDN Proxy-Race + frdl.js bridge",
+	"keywords": [
+		"elgg", "plugin", "auth", "cdn", "webfan", "frdl", "webfat"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+		  "name": "Nikolai Shcherbin",
+		  "email": "support@wzm.me"
+		},
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		},
+		{
+			"name": "Till Wehowski",
+			"email": "software@frdl.de"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"": "classes/"
+		}
+	},
+	"require": {
+		"php": ">=7.1",
+		"composer/installers": "~1.0"
+	}
+}
