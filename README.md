@@ -9,7 +9,7 @@ Webfan Webfat Bridge for Elgg
   - Installs class [\Webfan\ElggPatch\Controller\Connect::class](https://webfan.de/install/?source=\Webfan\ElggPatch\Controller\Connect)
   - To add an OAuth provider save the settings into a file {plugin-dir}/.config/{providers}.php 
     Example: Add the provider "webfan" in mod/webfan_webfat_elgg_bridge/.config/webfan.php 
-    ````PHP
+````PHP
 <?php
 
  return [
@@ -20,5 +20,5 @@ Webfan Webfat Bridge for Elgg
 			    'urlAccessToken'          => 'https://webfan.de/apps/oauth2/api/v1/token',    
 			    'urlResourceOwnerDetails' => 'https://webfan.de/ocs/v2.php/cloud/user?format=json'	
 		    ];    
-    ````
+````
  
