@@ -5,7 +5,7 @@
 	"keywords": [
 		"elgg", "plugin", "auth", "cdn", "webfan", "frdl", "webfat"
 	],
-	"license": "proprietary",
+	"license": "MIT",
 	"authors": [
 		{
 		  "name": "Nikolai Shcherbin",
