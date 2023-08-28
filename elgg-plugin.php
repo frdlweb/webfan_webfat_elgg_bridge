@@ -9,7 +9,7 @@ require_once __DIR__.\DIRECTORY_SEPARATOR.'autoloader.php';
   $baseUrl_elgg_cache = _elgg_services()->amdConfig->getConfig()['baseUrl'];
 // _elgg_services()->amdConfig->setBaseUrl('https://frdl.de/cdn/');
  // $baseUrl = _elgg_services()->amdConfig->getConfig()['baseUrl'];
-   $baseUrl = 'https://frdl.de/cdn/';
+   $baseUrl = elgg_get_site_url().'cdn/'; 
    $baseUrl_cdn = 'https://cdn.startdir.de/';
 
   $deps=[
