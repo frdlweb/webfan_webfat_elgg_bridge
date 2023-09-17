@@ -2,7 +2,7 @@ Webfan Webfat Bridge for Elgg
 ------------------------------
 * Bridge to [Webfat Framework, IO4 and Frdlweb](https://github.com/frdlweb/webfat)
   - Autoloads and Autoinstalls classes from servers (cdn, api, ...)
-  - Look into [autoloader.php](autoloader.php) and the [CDN](https://webfan.de/install/) for source codes...
+  - Look into [autoloader.php](autoloader.php) and the [CDN for Webfan\ElggPatch\...](https://webfan.de/install/?source=%5CWebfan%5CElggPatch%5C) for source codes...
 * CDN to mix assets with [frdl.js CDN](https://cdn.startdir.de)
   - Installs class [\Webfan\ElggPatch\Controller\CDN::class](https://webfan.de/install/?source=\Webfan\ElggPatch\Controller\CDN)
 * Multi Oauth Providers Login
