@@ -38,6 +38,11 @@ namespace IO4;
 	);
  }
 
+// See: https://github.com/frdlweb/webfat/blob/7b1fe168cc9328a65d66d5d147ffd39064e4cbf1/public/index.php#L4351
+// recommended for production:
+// putenv('IO4_WORKSPACE_SCOPE="@www@parent"');
+
+
  if ( !trait_exists( \Webfan\Webfat\getWebfatTrait::class ) ) {
      require_once  $traitFile;
  }
